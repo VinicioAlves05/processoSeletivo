@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Talents-Hub</title>
+</head>
+<body>
+
+    <!-- Cabeçalho da pagina -->
+    <header>
+        <!-- Logo e nome -->
+        <div class="div-header">
+          <img src="estgLog1.png" alt="Logo da Empresa" id="logo1">
+        </div>
+
+        <!-- Botões de entrar e cadastrar -->
+        <div class="div-header">
+          <a href="#" class="btn-secondary">Entrar</a>
+          <a href="#" class="btn-primary">Cadastrar</a>
+        </div>
+    </header>   
+
+    <main>
+
+    <!-- Card de login -->
+    <div class="container">
+       <h2>Entrar no TalentsHUB</h2>
+       <p class="lead">Acesse sua conta para encontrar as melhores oportunidades</p>
+
+       <!-- Formulario -->
+      <form action="" method="post">   
+          <!-- Inputs -->
+          <div class="form-group">
+             <label for="email">E-mail</label>
+             <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+          </div>
+
+          <div class="form-group">
+             <label for="password">Senha</label>
+             <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+          </div>
+
+          <!-- Lembre de mim -->
+          <div class="form-row">
+             <label class="remember">
+             <input type="checkbox" name="remember" id="remember">
+              Lembrar de mim
+             </label>
+
+             <a href="#" class="forgot-link">Esqueci minha senha?</a>
+          </div>
+
+          <!-- Botão de login -->
+          <button type="submit">Entrar</button>
+      </form>
+
+      <!-- Link de cadastro -->
+      <p class="signup">Não tem uma conta? <a href="#">Cadastre-se</a></p>
+    </div>
+
+    </main>
+
+    <!-- Rodapé da pagina -->
+    <footer>
+        &copy;2025 TalentsHUB. Todos os direitos reservados.
+    </footer> 
+</body>
+</html>

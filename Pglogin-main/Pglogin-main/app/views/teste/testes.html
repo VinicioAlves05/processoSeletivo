@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes - PS</title>
+    <link rel="stylesheet" href="testes.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+               <img src="estgLog1.png" alt="">
+            </div>
+            <div class="nav-auth">
+                <a href="" class="btn-secondary">Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Teste de Conhecimentos</h1>
+                <p>Responda às perguntas para avaliar seus conhecimentos</p>
+            </div>
+
+            <div class="quiz-container" id="quizContainer">
+                <div class="quiz-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <span class="progress-text" id="progressText">Pergunta 1 de 5</span>
+                </div>
+
+                <div class="quiz-question" id="quizQuestion">
+                    <h2 id="questionTitle">Carregando pergunta...</h2>
+                    <div class="quiz-options" id="quizOptions">
+                         Options will be populated by JavaScript 
+                    </div>
+                </div>
+
+                <div class="quiz-actions">
+                    <button class="btn-primary" id="nextButton" disabled>Próxima Pergunta</button>
+                </div>
+
+                <div class="quiz-result" id="quizResult" style="display: none;">
+                    <h2>Resultado do Teste</h2>
+                    <div class="result-score">
+                        <span class="score-number" id="scoreNumber">0</span>
+                        <span class="score-total">/ 5</span>
+                    </div>
+                    <p class="result-percentage" id="resultPercentage">0% de acertos</p>
+                    <button class="btn-primary" id="restartButton">Refazer Teste</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2024 PS. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="testes.js"></script>
+</body>
+</html>
